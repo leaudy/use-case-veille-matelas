@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Matelas | Dormio</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Helvetica Neue',Arial,sans-serif;color:#1b2240;background:#f6f7fb;line-height:1.5}
+a{color:inherit;text-decoration:none}
+.topbar{background:#1d2b64;color:#fff;font-size:13px;text-align:center;padding:8px 12px;letter-spacing:.2px}
+header.site{background:#fff;border-bottom:1px solid #e7e4df;display:flex;align-items:center;justify-content:space-between;padding:16px 6vw;gap:24px;flex-wrap:wrap}
+.logo{font-family:'Trebuchet MS','Helvetica Neue',sans-serif;font-size:28px;font-weight:700;color:#1d2b64;display:flex;align-items:center;gap:10px}
+.logo svg{width:30px;height:30px}
+nav.main a{margin-left:26px;font-size:15px;font-weight:500;color:#1b2240}
+nav.main a.on{color:#e0a100;border-bottom:2px solid #e0a100;padding-bottom:3px}
+.icons{font-size:14px;color:#555}
+.hero{background:linear-gradient(120deg,#1d2b64,#3d4fa8);color:#fff;padding:54px 6vw}
+.hero h1{font-family:'Trebuchet MS','Helvetica Neue',sans-serif;font-size:40px;line-height:1.15;max-width:640px}
+.hero p{margin-top:12px;max-width:560px;opacity:.92;font-size:17px}
+.crumbs{padding:16px 6vw 0;font-size:13px;color:#777}
+.filters{padding:18px 6vw 0;display:flex;gap:10px;flex-wrap:wrap}
+.filters span{border:1px solid #d6d1c9;border-radius:99px;padding:6px 14px;font-size:14px;background:#fff}
+.filters span.on{background:#1d2b64;color:#fff;border-color:#1d2b64}
+main{padding:26px 6vw 40px}
+.grid,.product-grid,.new-products,.zone{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:22px}
+.card{background:#fff;border:1px solid #e7e4df;border-radius:14px;overflow:hidden;position:relative;display:flex;flex-direction:column}
+.card .pic{background:#eaeefb;padding:18px}
+.card .body{padding:16px 18px 20px;display:flex;flex-direction:column;gap:6px;flex:1}
+.card h2{font-family:'Trebuchet MS','Helvetica Neue',sans-serif;font-size:19px}
+.card .tag{font-size:14px;color:#666}
+.card .price{font-size:22px;font-weight:700;margin-top:6px}
+.card .price s{font-size:16px;color:#999;font-weight:400;margin-right:8px}
+.card .price .now{color:#e0a100}
+.badge{position:absolute;top:12px;left:12px;background:#e0a100;color:#fff;font-size:12px;font-weight:700;padding:4px 10px;border-radius:99px;letter-spacing:.4px}
+.btn{margin-top:auto;display:inline-block;text-align:center;background:#1d2b64;color:#fff;border-radius:8px;padding:10px 14px;font-size:14px;font-weight:600}
+.promo-banner{background:linear-gradient(120deg,#e0a100,#f26b3a);color:#fff;border-radius:16px;padding:34px 36px;margin-bottom:26px}
+.promo-banner h2{font-family:'Trebuchet MS','Helvetica Neue',sans-serif;font-size:30px}
+.promo-banner p{margin-top:8px;font-size:17px;opacity:.95}
+.offers{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.offer{background:#fff;border:1px solid #e7e4df;border-radius:14px;padding:22px}
+.offer h3{font-family:'Trebuchet MS','Helvetica Neue',sans-serif;font-size:19px;margin-bottom:6px}
+.offer .small{font-size:13px;color:#777;margin-top:8px}
+.reassure{display:flex;gap:18px;flex-wrap:wrap;justify-content:space-between;padding:26px 6vw;background:#fff;border-top:1px solid #e7e4df;font-size:14px}
+.reassure div{flex:1;min-width:170px}
+.reassure b{display:block;color:#1d2b64;font-size:15px}
+footer.site{background:#1d2b64;color:#cfd3e6;padding:34px 6vw;font-size:14px;display:flex;gap:40px;flex-wrap:wrap}
+footer.site b{color:#fff;display:block;margin-bottom:6px}
+</style></head>
+<body>
+<div class="topbar">Livraison offerte en 48h · 100 nuits d'essai · Paiement en 3x sans frais</div>
+<header class="site"><a class="logo" href="#"><svg viewBox="0 0 32 32"><path d="M22 4a13 13 0 1 0 6 21A11 11 0 0 1 22 4z" fill="#e0a100"/></svg>Dormio</a><nav class="main"><a class="on" href="#">Matelas</a><a class="" href="#">Surmatelas</a><a class="" href="#">Oreillers</a><a class="" href="#">Sommiers</a><a class="" href="#">Offres</a></nav><div class="icons">Rechercher · Compte · Panier (0)</div></header>
+<section class="hero"><h1>Des nuits meilleures, au meilleur prix.</h1><p>Matelas, surmatelas, oreillers et sommiers livrés chez vous en 48h.</p></section>
+<div class="crumbs">Accueil › Matelas</div>
+<div class="filters"><span class="on">Tous</span><span>Hybride</span><span>Mousse</span><span>Accessoires</span><span>Trier : populaires</span></div>
+<main>
+<div class="product-grid">
+  <article class="card"><div class="pic"><svg viewBox="0 0 240 150" xmlns="http://www.w3.org/2000/svg" role="img"><ellipse cx="120" cy="134" rx="100" ry="9" fill="#000" opacity=".08"/><rect x="22" y="106" width="196" height="12" rx="6" fill="#3d4fa8"/><rect x="22" y="78" width="196" height="34" rx="12" fill="#dfe5f7"/><path d="M34 95.0 H206" stroke="#fff" stroke-opacity=".35" stroke-dasharray="3 7" stroke-width="2"/></svg></div><div class="body"><h2>Matelas Dormio Original 140x190</h2><p class="tag">Hybride · ressorts ensachés · accueil équilibré</p><p class="price">899 €</p><a class="btn" href="#">Voir le produit</a></div></article>
+  <article class="card"><div class="pic"><svg viewBox="0 0 240 150" xmlns="http://www.w3.org/2000/svg" role="img"><ellipse cx="120" cy="134" rx="100" ry="9" fill="#000" opacity=".08"/><rect x="22" y="106" width="196" height="12" rx="6" fill="#3d4fa8"/><rect x="22" y="78" width="196" height="34" rx="12" fill="#dfe5f7"/><path d="M34 95.0 H206" stroke="#fff" stroke-opacity=".35" stroke-dasharray="3 7" stroke-width="2"/></svg></div><div class="body"><h2>Matelas Dormio Mousse 140x190</h2><p class="tag">Mousse haute résilience · soutien ferme</p><p class="price">599 €</p><a class="btn" href="#">Voir le produit</a></div></article>
+  <article class="card"><div class="pic"><svg viewBox="0 0 240 150" xmlns="http://www.w3.org/2000/svg" role="img"><ellipse cx="120" cy="134" rx="100" ry="9" fill="#000" opacity=".08"/><rect x="22" y="106" width="196" height="12" rx="6" fill="#3d4fa8"/><rect x="22" y="94" width="196" height="18" rx="12" fill="#dfe5f7"/><path d="M34 103.0 H206" stroke="#fff" stroke-opacity=".35" stroke-dasharray="3 7" stroke-width="2"/></svg></div><div class="body"><h2>Surmatelas Dormio 140x190</h2><p class="tag">Mémoire de forme 5 cm</p><p class="price">249 €</p><a class="btn" href="#">Voir le produit</a></div></article>
+  <article class="card"><div class="pic"><svg viewBox="0 0 240 150" xmlns="http://www.w3.org/2000/svg" role="img"><ellipse cx="120" cy="132" rx="90" ry="9" fill="#000" opacity=".08"/><rect x="40" y="40" width="160" height="80" rx="38" fill="#dfe5f7"/><rect x="48" y="46" width="144" height="40" rx="20" fill="#3d4fa8" opacity=".55"/></svg></div><div class="body"><h2>Oreiller Dormio</h2><p class="tag">Mémoire de forme · ergonomique</p><p class="price">89 €</p><a class="btn" href="#">Voir le produit</a></div></article>
+  <article class="card"><div class="pic"><svg viewBox="0 0 240 150" xmlns="http://www.w3.org/2000/svg" role="img"><ellipse cx="120" cy="134" rx="100" ry="9" fill="#000" opacity=".08"/><rect x="25" y="70" width="190" height="48" rx="6" fill="#8a93b8"/><rect x="25" y="70" width="190" height="14" rx="6" fill="#3d4fa8" opacity=".6"/><rect x="38" y="118" width="10" height="14" fill="#555"/><rect x="192" y="118" width="10" height="14" fill="#555"/></svg></div><div class="body"><h2>Sommier Dormio tapissier 140x190</h2><p class="tag">Tapissier · pieds inclus</p><p class="price">349 €</p><a class="btn" href="#">Voir le produit</a></div></article>
+</div>
+</main>
+<section class="reassure"><div><b>Livraison offerte</b>En 48h partout en France</div><div><b>100 nuits d'essai</b>Retour gratuit si pas convaincu</div><div><b>Garantie 10 ans</b>Sur tous nos matelas</div><div><b>Paiement en 3x</b>Sans frais dès 300 €</div></section>
+<footer class="site"><div><b>Dormio</b>Service client 7j/7<br>hello@dormio.fr</div><div><b>Aide</b>Livraison &amp; retours<br>Garantie 10 ans<br>Essai 100 nuits</div><div><b>Société</b>À propos<br>Presse<br>Mentions légales</div></footer>
+</body></html>

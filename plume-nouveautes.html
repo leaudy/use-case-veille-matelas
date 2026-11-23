@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Le journal | Plume & Lin</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Georgia,'Times New Roman',serif;color:#3a352d;background:#faf7f1;line-height:1.5}
+a{color:inherit;text-decoration:none}
+.topbar{background:#4a4033;color:#fff;font-size:13px;text-align:center;padding:8px 12px;letter-spacing:.2px}
+header.site{background:#fff;border-bottom:1px solid #e7e4df;display:flex;align-items:center;justify-content:space-between;padding:16px 6vw;gap:24px;flex-wrap:wrap}
+.logo{font-family:Georgia,'Times New Roman',serif;font-size:28px;font-weight:700;color:#4a4033;display:flex;align-items:center;gap:10px}
+.logo svg{width:30px;height:30px}
+nav.main a{margin-left:26px;font-size:15px;font-weight:500;color:#3a352d}
+nav.main a.on{color:#8a7a4f;border-bottom:2px solid #8a7a4f;padding-bottom:3px}
+.icons{font-size:14px;color:#555}
+.hero{background:linear-gradient(120deg,#6b5e49,#a39679);color:#fff;padding:54px 6vw}
+.hero h1{font-family:Georgia,'Times New Roman',serif;font-size:40px;line-height:1.15;max-width:640px}
+.hero p{margin-top:12px;max-width:560px;opacity:.92;font-size:17px}
+.crumbs{padding:16px 6vw 0;font-size:13px;color:#777}
+.filters{padding:18px 6vw 0;display:flex;gap:10px;flex-wrap:wrap}
+.filters span{border:1px solid #d6d1c9;border-radius:99px;padding:6px 14px;font-size:14px;background:#fff}
+.filters span.on{background:#4a4033;color:#fff;border-color:#4a4033}
+main{padding:26px 6vw 40px}
+.grid,.product-grid,.new-products,.zone{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:22px}
+.card{background:#fff;border:1px solid #e7e4df;border-radius:14px;overflow:hidden;position:relative;display:flex;flex-direction:column}
+.card .pic{background:#f1ece0;padding:18px}
+.card .body{padding:16px 18px 20px;display:flex;flex-direction:column;gap:6px;flex:1}
+.card h2{font-family:Georgia,'Times New Roman',serif;font-size:19px}
+.card .tag{font-size:14px;color:#666}
+.card .price{font-size:22px;font-weight:700;margin-top:6px}
+.card .price s{font-size:16px;color:#999;font-weight:400;margin-right:8px}
+.card .price .now{color:#8a7a4f}
+.badge{position:absolute;top:12px;left:12px;background:#8a7a4f;color:#fff;font-size:12px;font-weight:700;padding:4px 10px;border-radius:99px;letter-spacing:.4px}
+.btn{margin-top:auto;display:inline-block;text-align:center;background:#4a4033;color:#fff;border-radius:8px;padding:10px 14px;font-size:14px;font-weight:600}
+.promo-banner{background:linear-gradient(120deg,#6b5e49,#8a7a4f);color:#fff;border-radius:16px;padding:34px 36px;margin-bottom:26px}
+.promo-banner h2{font-family:Georgia,'Times New Roman',serif;font-size:30px}
+.promo-banner p{margin-top:8px;font-size:17px;opacity:.95}
+.offers{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.offer{background:#fff;border:1px solid #e7e4df;border-radius:14px;padding:22px}
+.offer h3{font-family:Georgia,'Times New Roman',serif;font-size:19px;margin-bottom:6px}
+.offer .small{font-size:13px;color:#777;margin-top:8px}
+.reassure{display:flex;gap:18px;flex-wrap:wrap;justify-content:space-between;padding:26px 6vw;background:#fff;border-top:1px solid #e7e4df;font-size:14px}
+.reassure div{flex:1;min-width:170px}
+.reassure b{display:block;color:#4a4033;font-size:15px}
+footer.site{background:#4a4033;color:#cfd3e6;padding:34px 6vw;font-size:14px;display:flex;gap:40px;flex-wrap:wrap}
+footer.site b{color:#fff;display:block;margin-bottom:6px}
+.zone{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:22px}</style></head>
+<body>
+<div class="topbar">Latex naturel · Laine · Lin · Fabrication européenne</div>
+<header class="site"><a class="logo" href="#"><svg viewBox="0 0 32 32"><path d="M6 26C6 12 14 5 27 5c0 14-7 21-21 21z" fill="#8a7a4f"/><path d="M6 26L20 12" stroke="#faf7f1" stroke-width="2"/></svg>Plume &amp; Lin</a><nav class="main"><a class="" href="#">Matelas</a><a class="" href="#">Surmatelas</a><a class="" href="#">Oreillers</a><a class="" href="#">Sommiers</a><a class="on" href="#">Le journal</a></nav><div class="icons">Rechercher · Compte · Panier (0)</div></header>
+<section class="hero"><h1>Le journal Plume &amp; Lin</h1><p>Conseils sommeil, matières et savoir-faire.</p></section>
+<div class="crumbs">Accueil › Nouveautés</div>
+
+<main>
+<div class="product-list zone">
+  <article class="card"><span class="badge">JOURNAL</span><div class="body" style="padding-top:44px"><h2>Choisir sa fermeté de matelas</h2><p class="tag">Notre guide pour trouver le bon soutien selon votre morphologie.</p></div></article>
+  <article class="card"><span class="badge">JOURNAL</span><div class="body" style="padding-top:44px"><h2>L'entretien d'un matelas en latex</h2><p class="tag">Les bons gestes pour garder votre literie longtemps.</p></div></article>
+</div>
+</main>
+<section class="reassure"><div><b>Matières naturelles</b>Latex, laine, kapok, lin</div><div><b>Fabrication européenne</b>Ateliers partenaires</div><div><b>Garantie 15 ans</b>Sur nos matelas</div><div><b>Conseil personnalisé</b>Par téléphone ou visio</div></section>
+<footer class="site"><div><b>Plume &amp; Lin</b>Bordeaux (33)<br>contact@plume-et-lin.fr</div><div><b>Aide</b>Livraison &amp; retours<br>Garantie 15 ans</div><div><b>Journal</b>Guides sommeil<br>Matières naturelles<br>Mentions légales</div></footer>
+</body></html>

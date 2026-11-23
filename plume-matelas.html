@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Matelas | Plume & Lin</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Georgia,'Times New Roman',serif;color:#3a352d;background:#faf7f1;line-height:1.5}
+a{color:inherit;text-decoration:none}
+.topbar{background:#4a4033;color:#fff;font-size:13px;text-align:center;padding:8px 12px;letter-spacing:.2px}
+header.site{background:#fff;border-bottom:1px solid #e7e4df;display:flex;align-items:center;justify-content:space-between;padding:16px 6vw;gap:24px;flex-wrap:wrap}
+.logo{font-family:Georgia,'Times New Roman',serif;font-size:28px;font-weight:700;color:#4a4033;display:flex;align-items:center;gap:10px}
+.logo svg{width:30px;height:30px}
+nav.main a{margin-left:26px;font-size:15px;font-weight:500;color:#3a352d}
+nav.main a.on{color:#8a7a4f;border-bottom:2px solid #8a7a4f;padding-bottom:3px}
+.icons{font-size:14px;color:#555}
+.hero{background:linear-gradient(120deg,#6b5e49,#a39679);color:#fff;padding:54px 6vw}
+.hero h1{font-family:Georgia,'Times New Roman',serif;font-size:40px;line-height:1.15;max-width:640px}
+.hero p{margin-top:12px;max-width:560px;opacity:.92;font-size:17px}
+.crumbs{padding:16px 6vw 0;font-size:13px;color:#777}
+.filters{padding:18px 6vw 0;display:flex;gap:10px;flex-wrap:wrap}
+.filters span{border:1px solid #d6d1c9;border-radius:99px;padding:6px 14px;font-size:14px;background:#fff}
+.filters span.on{background:#4a4033;color:#fff;border-color:#4a4033}
+main{padding:26px 6vw 40px}
+.grid,.product-grid,.new-products,.zone{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:22px}
+.card{background:#fff;border:1px solid #e7e4df;border-radius:14px;overflow:hidden;position:relative;display:flex;flex-direction:column}
+.card .pic{background:#f1ece0;padding:18px}
+.card .body{padding:16px 18px 20px;display:flex;flex-direction:column;gap:6px;flex:1}
+.card h2{font-family:Georgia,'Times New Roman',serif;font-size:19px}
+.card .tag{font-size:14px;color:#666}
+.card .price{font-size:22px;font-weight:700;margin-top:6px}
+.card .price s{font-size:16px;color:#999;font-weight:400;margin-right:8px}
+.card .price .now{color:#8a7a4f}
+.badge{position:absolute;top:12px;left:12px;background:#8a7a4f;color:#fff;font-size:12px;font-weight:700;padding:4px 10px;border-radius:99px;letter-spacing:.4px}
+.btn{margin-top:auto;display:inline-block;text-align:center;background:#4a4033;color:#fff;border-radius:8px;padding:10px 14px;font-size:14px;font-weight:600}
+.promo-banner{background:linear-gradient(120deg,#6b5e49,#8a7a4f);color:#fff;border-radius:16px;padding:34px 36px;margin-bottom:26px}
+.promo-banner h2{font-family:Georgia,'Times New Roman',serif;font-size:30px}
+.promo-banner p{margin-top:8px;font-size:17px;opacity:.95}
+.offers{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.offer{background:#fff;border:1px solid #e7e4df;border-radius:14px;padding:22px}
+.offer h3{font-family:Georgia,'Times New Roman',serif;font-size:19px;margin-bottom:6px}
+.offer .small{font-size:13px;color:#777;margin-top:8px}
+.reassure{display:flex;gap:18px;flex-wrap:wrap;justify-content:space-between;padding:26px 6vw;background:#fff;border-top:1px solid #e7e4df;font-size:14px}
+.reassure div{flex:1;min-width:170px}
+.reassure b{display:block;color:#4a4033;font-size:15px}
+footer.site{background:#4a4033;color:#cfd3e6;padding:34px 6vw;font-size:14px;display:flex;gap:40px;flex-wrap:wrap}
+footer.site b{color:#fff;display:block;margin-bottom:6px}
+.zone{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:22px}</style></head>
+<body>
+<div class="topbar">Latex naturel · Laine · Lin · Fabrication européenne</div>
+<header class="site"><a class="logo" href="#"><svg viewBox="0 0 32 32"><path d="M6 26C6 12 14 5 27 5c0 14-7 21-21 21z" fill="#8a7a4f"/><path d="M6 26L20 12" stroke="#faf7f1" stroke-width="2"/></svg>Plume &amp; Lin</a><nav class="main"><a class="on" href="#">Matelas</a><a class="" href="#">Surmatelas</a><a class="" href="#">Oreillers</a><a class="" href="#">Sommiers</a><a class="" href="#">Le journal</a></nav><div class="icons">Rechercher · Compte · Panier (0)</div></header>
+<section class="hero"><h1>Dormir naturellement</h1><p>Des matelas en matières naturelles, choisies avec soin.</p></section>
+<div class="crumbs">Accueil › Matelas</div>
+<div class="filters"><span class="on">Tous</span><span class="">Latex</span><span class="">Hybride</span></div>
+<main>
+<div class="product-list zone">
+  <article class="card"><div class="pic"><svg viewBox="0 0 240 150" xmlns="http://www.w3.org/2000/svg" role="img"><ellipse cx="120" cy="134" rx="100" ry="9" fill="#000" opacity=".08"/><rect x="22" y="106" width="196" height="12" rx="6" fill="#8a7a4f"/><rect x="22" y="78" width="196" height="34" rx="12" fill="#f1ece0"/><path d="M34 95.0 H206" stroke="#fff" stroke-opacity=".35" stroke-dasharray="3 7" stroke-width="2"/></svg></div><div class="body"><h2>Matelas Latex Naturel 140x190</h2><p class="tag">Latex naturel · coutil coton bio</p><p class="price">1290 €</p><a class="btn" href="#">Voir le produit</a></div></article>
+  <article class="card"><div class="pic"><svg viewBox="0 0 240 150" xmlns="http://www.w3.org/2000/svg" role="img"><ellipse cx="120" cy="134" rx="100" ry="9" fill="#000" opacity=".08"/><rect x="22" y="106" width="196" height="12" rx="6" fill="#8a7a4f"/><rect x="22" y="78" width="196" height="34" rx="12" fill="#f1ece0"/><path d="M34 95.0 H206" stroke="#fff" stroke-opacity=".35" stroke-dasharray="3 7" stroke-width="2"/></svg></div><div class="body"><h2>Matelas Plume Hybride 140x190</h2><p class="tag">Hybride · ressorts + latex</p><p class="price">1090 €</p><a class="btn" href="#">Voir le produit</a></div></article>
+  <article class="card"><div class="pic"><svg viewBox="0 0 240 150" xmlns="http://www.w3.org/2000/svg" role="img"><ellipse cx="120" cy="134" rx="100" ry="9" fill="#000" opacity=".08"/><rect x="22" y="106" width="196" height="12" rx="6" fill="#8a7a4f"/><rect x="22" y="94" width="196" height="18" rx="12" fill="#f1ece0"/><path d="M34 103.0 H206" stroke="#fff" stroke-opacity=".35" stroke-dasharray="3 7" stroke-width="2"/></svg></div><div class="body"><h2>Surmatelas laine 140x190</h2><p class="tag">Laine mérinos</p><p class="price">349 €</p><a class="btn" href="#">Voir le produit</a></div></article>
+  <article class="card"><div class="pic"><svg viewBox="0 0 240 150" xmlns="http://www.w3.org/2000/svg" role="img"><ellipse cx="120" cy="132" rx="90" ry="9" fill="#000" opacity=".08"/><rect x="40" y="40" width="160" height="80" rx="38" fill="#f1ece0"/><rect x="48" y="46" width="144" height="40" rx="20" fill="#8a7a4f" opacity=".55"/></svg></div><div class="body"><h2>Oreiller kapok</h2><p class="tag">Fibre de kapok</p><p class="price">119 €</p><a class="btn" href="#">Voir le produit</a></div></article>
+  <article class="card"><div class="pic"><svg viewBox="0 0 240 150" xmlns="http://www.w3.org/2000/svg" role="img"><ellipse cx="120" cy="134" rx="100" ry="9" fill="#000" opacity=".08"/><rect x="25" y="70" width="190" height="48" rx="6" fill="#f1ece0"/><rect x="25" y="70" width="190" height="14" rx="6" fill="#8a7a4f" opacity=".6"/><rect x="38" y="118" width="10" height="14" fill="#555"/><rect x="192" y="118" width="10" height="14" fill="#555"/></svg></div><div class="body"><h2>Sommier bois massif 140x190</h2><p class="tag">Hêtre massif</p><p class="price">459 €</p><a class="btn" href="#">Voir le produit</a></div></article>
+</div>
+</main>
+<section class="reassure"><div><b>Matières naturelles</b>Latex, laine, kapok, lin</div><div><b>Fabrication européenne</b>Ateliers partenaires</div><div><b>Garantie 15 ans</b>Sur nos matelas</div><div><b>Conseil personnalisé</b>Par téléphone ou visio</div></section>
+<footer class="site"><div><b>Plume &amp; Lin</b>Bordeaux (33)<br>contact@plume-et-lin.fr</div><div><b>Aide</b>Livraison &amp; retours<br>Garantie 15 ans</div><div><b>Journal</b>Guides sommeil<br>Matières naturelles<br>Mentions légales</div></footer>
+</body></html>
